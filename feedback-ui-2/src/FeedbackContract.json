@@ -1,0 +1,67 @@
+{
+    "address": "0x5341fDe1CC061A62b1F5075e997DA0FE2398B732",
+    "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "string",
+              "name": "_feedbackMessage",
+              "type": "string"
+            }
+          ],
+          "name": "addFeedback",
+          "outputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "name": "feedbackMessages",
+          "outputs": [
+            {
+              "internalType": "string",
+              "name": "message",
+              "type": "string"
+            },
+            {
+              "internalType": "address",
+              "name": "sender",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "inputs": [],
+          "name": "getFeedbackMessages",
+          "outputs": [
+            {
+              "components": [
+                {
+                  "internalType": "string",
+                  "name": "message",
+                  "type": "string"
+                },
+                {
+                  "internalType": "address",
+                  "name": "sender",
+                  "type": "address"
+                }
+              ],
+              "internalType": "struct Feedback.FeedbackMessage[]",
+              "name": "",
+              "type": "tuple[]"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function"
+        }
+      ]
+}

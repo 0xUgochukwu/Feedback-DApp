@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: sans-serif;
+  background-color: #f2f2f2;
+}
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.connectWalletButton {
+  border-top: 100px;
+  padding: 20px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+
+.feedback-form h3 {
+  margin-bottom: 20px;
+}
+
+.feedback-form textarea {
+  margin-bottom: 20px;
+  width: 500px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.feedback-form button {
+  padding: 10px 20px;
+  background-color: #3425ff;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.feedback-form button:hover {
+  background-color: #170e8e;
+}
+
+.feedback-messages {
+  margin-top: 20px;
+  width: 500px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.feedback-message {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.feedback-message h4 {
+  margin-bottom: 10px;
+}
+
+.feedback-message p {
+  margin-bottom: 10px;
+}
