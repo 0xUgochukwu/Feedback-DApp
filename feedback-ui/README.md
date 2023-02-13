@@ -1,7 +1,7 @@
 # How to run the app
 
 Clone the project 
-### `git clone `
+### `git clone https://github.com/0xUgochukwu/Feedback-DApp.git`
 
 From the project directory, cd into the UI
 ### `cd feedback-ui/` 
