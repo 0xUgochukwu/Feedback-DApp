@@ -56,7 +56,7 @@ const Feedback = () => {
             onChange={(event) => setFeedbackMessage(event.target.value)}
           />
         </div>
-        <button id="submit-btn" type="submit" disabled={submitting}>Submit Feedback</button>
+        <button id="submit-btn" type="submit" disabled={submitting}>{submitting ? "Submitting your feedback..." : "Submit Feedback"}</button>
       </form>
       <div className="feedback-messages">
       <h2>Feedback Messages</h2>
